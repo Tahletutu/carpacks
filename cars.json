@@ -1,0 +1,119 @@
+{
+  "_note": "Ajouter des voitures dans le tableau 'cars'. Images: assets/cars/{id}/pack.jpg | showroom.jpg | catalog.jpg",
+  "packs": [
+    {
+      "id": "bronze",
+      "name": "Pack Bronze",
+      "emoji": "🥉",
+      "price": 5000,
+      "description": "Voitures communes et rares",
+      "weights": { "common": 70, "rare": 28, "epic": 2, "legendary": 0 }
+    },
+    {
+      "id": "silver",
+      "name": "Pack Argent",
+      "emoji": "🥈",
+      "price": 15000,
+      "description": "Rares et quelques épiques garantis",
+      "weights": { "common": 20, "rare": 55, "epic": 23, "legendary": 2 }
+    },
+    {
+      "id": "gold",
+      "name": "Pack Or",
+      "emoji": "🏆",
+      "price": 50000,
+      "description": "Épiques et légendaires, le top du top",
+      "weights": { "common": 0, "rare": 20, "epic": 55, "legendary": 25 }
+    }
+  ],
+  "cars": [
+    {
+      "id": "vw_golf_gti_mk8",
+      "name": "Golf GTI Mk8",
+      "brand": "Volkswagen",
+      "year": 2021,
+      "rarity": "common",
+      "specs": {
+        "weight": 1432,
+        "power": 245,
+        "torque": 370,
+        "sprint_100": 6.3,
+        "sprint_200": 24.0,
+        "top_speed": 250
+      },
+      "base_price": 38000,
+      "sell_ratio": 0.60,
+      "images": {
+        "pack": "assets/cars/vw_golf_gti_mk8/pack.jpg",
+        "showroom": "assets/cars/vw_golf_gti_mk8/showroom.jpg",
+        "catalog": "assets/cars/vw_golf_gti_mk8/catalog.jpg"
+      }
+    },
+    {
+      "id": "bmw_m3_competition",
+      "name": "M3 Competition",
+      "brand": "BMW",
+      "year": 2021,
+      "rarity": "rare",
+      "specs": {
+        "weight": 1730,
+        "power": 510,
+        "torque": 650,
+        "sprint_100": 3.9,
+        "sprint_200": 12.5,
+        "top_speed": 290
+      },
+      "base_price": 97000,
+      "sell_ratio": 0.60,
+      "images": {
+        "pack": "assets/cars/bmw_m3_competition/pack.jpg",
+        "showroom": "assets/cars/bmw_m3_competition/showroom.jpg",
+        "catalog": "assets/cars/bmw_m3_competition/catalog.jpg"
+      }
+    },
+    {
+      "id": "lamborghini_huracan_sto",
+      "name": "Huracán STO",
+      "brand": "Lamborghini",
+      "year": 2021,
+      "rarity": "epic",
+      "specs": {
+        "weight": 1339,
+        "power": 640,
+        "torque": 565,
+        "sprint_100": 3.0,
+        "sprint_200": 9.0,
+        "top_speed": 310
+      },
+      "base_price": 250000,
+      "sell_ratio": 0.65,
+      "images": {
+        "pack": "assets/cars/lamborghini_huracan_sto/pack.jpg",
+        "showroom": "assets/cars/lamborghini_huracan_sto/showroom.jpg",
+        "catalog": "assets/cars/lamborghini_huracan_sto/catalog.jpg"
+      }
+    },
+    {
+      "id": "bugatti_chiron",
+      "name": "Chiron",
+      "brand": "Bugatti",
+      "year": 2016,
+      "rarity": "legendary",
+      "specs": {
+        "weight": 1995,
+        "power": 1500,
+        "torque": 1600,
+        "sprint_100": 2.4,
+        "sprint_200": 6.1,
+        "top_speed": 420
+      },
+      "base_price": 2800000,
+      "sell_ratio": 0.70,
+      "images": {
+        "pack": "assets/cars/bugatti_chiron/pack.jpg",
+        "showroom": "assets/cars/bugatti_chiron/showroom.jpg",
+        "catalog": "assets/cars/bugatti_chiron/catalog.jpg"
+      }
+    }
+  ]
+}
